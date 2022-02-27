@@ -1,0 +1,85 @@
+*{
+    font-family: Roboto, Helvetica, sans-serif
+}
+
+.div-header, .div-promo{
+    background: black;
+    color: white;
+    display: flex;
+}
+
+
+.div-header{
+    padding: 10px 30px;
+}
+.header-links{
+    margin-left: auto;
+}
+
+.div-promo{
+    padding: 30px 20px
+}
+.div-promo .promo-left button{
+    background: #3882F6;
+    color: white;
+}
+
+.div-promo .promo-right{
+           display: flex;
+        justify-content: center;
+        align-items: center;      
+        background: grey;
+        text-align: center;
+}
+
+
+.div-info{
+    text-align: center;
+    padding: 15px 50px; 
+}
+
+.div-info .info-row{
+    display: flex
+}
+
+.div-info img{
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.div-memo{
+    background: grey;
+    padding: 50px;
+    
+}
+
+.div-memo span{
+
+     
+ }
+
+.div-memo span{
+   text-align: right;
+   display: block;
+    
+}
+
+.div-cta{
+    background: #3882F6;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.cta-left{
+    flex: 1;
+}
+.cta-right button{
+    background: none;
+    border: 1px white solid;
+    color: white;
+}

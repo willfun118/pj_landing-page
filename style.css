@@ -60,6 +60,12 @@
         height: 250px;
         width: 500px;
         flex: 1 0 auto;
+        overflow: hidden;
+}
+
+.promo-right img{
+    object-fit: cover;
+    width: 100%;
 }
 
 
@@ -96,6 +102,10 @@
     font-size: 10px;
     width: 100px;
     margin-top: 0;
+}
+
+.info-card img{
+    object-fit: cover;
 }
 
 

@@ -3,26 +3,53 @@
 }
 
 .div-header, .div-promo{
-    background: black;
+    background: #1F2937;
     color: white;
     display: flex;
 }
 
 
 .div-header{
-    padding: 10px 30px;
+    padding: 10px 200px;
+}
+.div-header p{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 .header-links{
     margin-left: auto;
 }
+.header-links span{
+    margin-left: 20px;
+}
 
 .div-promo{
-    padding: 30px 20px
+    padding: 30px 200px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
 .div-promo .promo-left button{
     background: #3882F6;
     color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 6px;
 }
+
+.div-promo .promo-left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-top: 0;
+}
+
+.div-promo .promo-left p{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 
 .div-promo .promo-right{
            display: flex;
@@ -30,41 +57,68 @@
         align-items: center;      
         background: grey;
         text-align: center;
+        height: 250px;
+        width: 500px;
+        flex: 1 0 auto;
 }
 
 
 .div-info{
     text-align: center;
-    padding: 15px 50px; 
+    padding: 50px 200px; 
 }
 
 .div-info .info-row{
     display: flex
 }
 
-.div-info img{
-    border: 1px solid blue;
-    width: 50px;
-    height: 50px;
+.div-info h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 0;
+}
+
+.info-row{
+    column-gap: 24px ;
+    display: flex;
+    justify-content: center;
+}
+
+.info-card img{
+    border: 1px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+
+.info-card p{
+    font-size: 10px;
+    width: 100px;
+    margin-top: 0;
 }
 
 
 
 
 .div-memo{
-    background: grey;
-    padding: 50px;
+    background: #E5E7EB;
+    padding: 50px 300px;
     
 }
 
-.div-memo span{
-
+.div-memo h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
      
  }
 
 .div-memo span{
    text-align: right;
    display: block;
+   font-weight: bold;
     
 }
 
@@ -73,9 +127,14 @@
     display: flex;
     align-items: center;
     color: white;
-    padding: 20px;
+    padding: 20px 50px;
+    margin: 50px 200px;;
+    border-radius: 6px;;
 }
 .cta-left{
+    flex: 1;
+}
+.cta-left h3{
     flex: 1;
 }
 .cta-right button{
